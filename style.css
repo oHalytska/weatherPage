@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    
+}
+h1{
+    font-weight: 700;
+    font-size: 88px;
+    color: rgb(18, 53, 209);
+}
+
+h2{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.wraper{
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 20px;
+}
+
+.card{
+    margin-top: 8%;
+    align-items: center;
+    background-color: rgb(240, 245, 255);
+    padding: 100px 100px;
+    box-shadow: 5px 20px 40px rgba(8, 66, 180, 0.2);
+    border-radius: 8px;
+}
+
+.card :hover{
+    color: rgb(219, 23, 56);
+}
+
+
+.degree-section{
+    grid-column: 1/-1;
+}
+
+.properties{
+    display: flex;
+    align-items: center;
+}
